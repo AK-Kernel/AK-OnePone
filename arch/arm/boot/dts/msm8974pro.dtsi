@@ -1896,6 +1896,12 @@
                        qcom,bus-freq = <1>;
                };
 
+               qcom,gpu-pwrlevel@6 {
+                       reg = <6>;
+                       qcom,gpu-freq = <27000000>;
+                       qcom,bus-freq = <0>;
+               };
+
 			   /* this dummy power level 7 is implemented to make
 				  the system use power level 6; it is never actively used */
                qcom,gpu-pwrlevel@7 {
